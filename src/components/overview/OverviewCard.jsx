@@ -4,7 +4,7 @@ export const OverviewCard = (props) => {
   const { interactions, brand, amount, variance } = props;
 
   return (
-    <div className="p-6 dark:bg-dm_darkDesaturaedBlue bg-lm_grayBlue rounded-lg ">
+    <div className="p-6 dark:bg-dm_darkDesaturaedBlue bg-lm_paleBlue rounded-lg hover:bg-lm_grayBlue cursor-pointer dark:hover:brightness-125">
       <div className="flex justify-between">
         <p className="dark:text-dm_desaturatedBlue text-lm_darkGrayBlue text-sm font-bold">
           {interactions}

@@ -5,7 +5,7 @@ export const Card = (props) => {
   return (
     <div
       id="card"
-      className={`text-center md:flex-wrap rounded-lg bg-lm_grayBlue dark:bg-dm_darkDesaturaedBlue p-7 border-t-4 ${border}`}
+      className={`text-center rounded-lg bg-lm_paleBlue dark:bg-dm_darkDesaturaedBlue p-7 border-t-4 ${border} hover:bg-lm_grayBlue cursor-pointer dark:hover:brightness-125`}
     >
       <div className="flex gap-2 justify-center">
         <img src={svg} />
