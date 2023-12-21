@@ -3,7 +3,7 @@ import "./followers.css";
 
 export const Followers = () => {
   return (
-    <section className="mt-10 flex flex-col md:flex-row justify-around gap-8">
+    <section className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7">
       <Card
         followers={"1987"}
         variance={12}

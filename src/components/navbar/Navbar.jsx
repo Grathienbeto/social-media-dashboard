@@ -24,7 +24,7 @@ export const Navbar = () => {
   };
 
   return (
-    <header className="md:flex md:justify-between">
+    <header className="md:flex md:justify-between z-10">
       <HeaderInfo />
       <DarkModeToggle handleChangeTheme={handleChangeTheme} />
     </header>
