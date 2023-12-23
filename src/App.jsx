@@ -1,3 +1,4 @@
+import { Attribution } from "./components/attribution/Attribution";
 import { Followers } from "./components/followers/Followers";
 import { Navbar } from "./components/navbar/Navbar";
 import { Overview } from "./components/overview/Overview";
@@ -11,6 +12,7 @@ function App() {
           <Navbar />
           <Followers />
           <Overview />
+          <Attribution />
         </div>
       </div>
     </>

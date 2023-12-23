@@ -13,7 +13,7 @@ export const OverviewCard = (props) => {
       </div>
       <div className="flex justify-between items-baseline mt-5">
         <p className="dark:text-dm_white text-4xl font-bold">{amount}</p>
-        {variance > 0 ? (
+        {variance >= 0 ? (
           <div className="flex items-center justify-center gap-1 mt-5">
             <img
               src="https://raw.githubusercontent.com/Grathienbeto/social-media-dashboard/2d6c71d977e94b22d1f68c441921a4ff6c7c51fc/challenge/images/icon-up.svg"
