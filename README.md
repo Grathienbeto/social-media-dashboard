@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution](https://github.com/Grathienbeto/social-media-dashboard)
-- Live Site URL: [Live site](https://your-live-site-url.com)
+- Live Site URL: [Live site](https://grathienbeto.github.io/social-media-dashboard/)
 
 ## My process
 
